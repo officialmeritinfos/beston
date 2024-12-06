@@ -19,6 +19,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/',[HomeController::class,'index']);
 Route::get('index',[HomeController::class,'index']);
+Route::get('global',[HomeController::class,'index']);
 Route::get('about',[HomeController::class,'about']);
 Route::get('plans',[HomeController::class,'plans']);
 Route::get('plan',[HomeController::class,'plans']);
@@ -50,3 +51,5 @@ Route::get('agriculture',[HomeController::class,'agriculture']);
 //Calculate return
 Route::post('calculate-return',[HomeController::class,'calculateReturn'])
     ->name('calculate.return');
+
+Route::get('/{global?}',[HomeController::class,'index']);
