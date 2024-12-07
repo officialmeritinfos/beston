@@ -198,8 +198,7 @@
                 <h2>Secure & trusted</h2></div>
             <div class="row">
                 <div class="span-item">
-					<span class="svg-icon-src"><?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
                         <!-- Created with Vectornator (http://vectornator.io/) -->
 <svg height="34" stroke-miterlimit="10" style="fill-rule:nonzero;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" version="1.1" viewBox="0 0 36 34" width="36" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 
