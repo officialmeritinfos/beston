@@ -109,7 +109,7 @@
 
     @if($investment->source=='balance')
 
-        <div class="container-fluid mt-5">
+        <!--<div class="container-fluid mt-5">
             <div class="alert-email text-center">
                 <img  src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data={{$investment->wallet}}">
                 <span class="email-text">Read the instruction below</span>
@@ -130,7 +130,7 @@
                     <p class="dastone">Thanks for choosing <span>{{$siteName}}</span> <br/></p>
                 </div>
             </div>
-        </div>
+        </div>-->
     @endif
 
 @endsection
