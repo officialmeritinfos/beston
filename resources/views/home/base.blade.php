@@ -49,7 +49,7 @@
     <script data-categories="essential"type="text/javascript" defer src="{{asset('home/wp-content/themes/public/dist/scripts/common-async_4145c2c768b368b3.js')}}?ver=1" id="cs/common-js-defer-js"></script>
     <script data-categories="essential"type="text/javascript" src="universal.hellopublic.com/prod-web/adjust-link" id="cs/js/tracker-update-js"></script>
     <script type="text/javascript">document.documentElement.className += " js";</script>
-    <link rel="shortcut icon" href="{{asset('home/wp-content/uploads/2022/02/logo.ico')}}" data-dark="/{{asset('home/wp-content/uploads/2022/02/public-favicon-white.png')}}" type="image/x-icon" /></head>    <body class="template-homepage-global page">
+    <link rel="shortcut icon" href="{{ asset('home/images/'.$web->logo) }}" data-dark="{{ asset('home/images/'.$web->logo) }}" type="image/x-icon" /></head>    <body class="template-homepage-global page">
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns?id=GTM-PCBFC3K" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
@@ -800,4 +800,16 @@
 </script>
 <!-- end popup massage -->
 @stack('js')
+<!-- Smartsupp Live Chat script -->
+<script type="text/javascript">
+    var _smartsupp = _smartsupp || {};
+    _smartsupp.key = 'bfa52db2f6345dc9c39f2ff184d2fb54df40a5e7';
+    window.smartsupp||(function(d) {
+        var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
+        s=d.getElementsByTagName('script')[0];c=d.createElement('script');
+        c.type='text/javascript';c.charset='utf-8';c.async=true;
+        c.src='https://www.smartsuppchat.com/loader.js?';s.parentNode.insertBefore(c,s);
+    })(document);
+</script>
+<noscript> Powered by <a href=“https://www.smartsupp.com” target=“_blank”>Smartsupp</a></noscript>
 </html>
