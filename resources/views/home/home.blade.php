@@ -42,8 +42,7 @@
 
             <div class="span-rating">
                 <div class="svg-appstore-rating">
-                    <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-                    <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
                     <svg height="100%" stroke-miterlimit="10" style="fill-rule:nonzero;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" version="1.1" viewBox="0 0 143 56" width="100%" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g>
     <path d="M20.6798 10.7407C20.5582 10.4922 20.3028 10.3345 20.0231 10.3345C19.7434 10.3345 19.4911 10.4922 19.3665 10.7407L17.2809 14.9853L12.623 15.6673C12.3496 15.7064 12.1225 15.8957 12.0365 16.1541C11.9502 16.4154 12.0198 16.7009 12.2162 16.8901L15.5935 20.201L14.7696 24.8729C14.7514 25.1433 14.8639 25.4197 15.0889 25.5789C15.3169 25.7382 15.6148 25.7592 15.8337 25.63L20.0231 23.4308L24.1882 25.63C24.4071 25.7592 24.7324 25.7382 24.9574 25.5789C25.1854 25.4197 25.2979 25.1433 25.2523 24.8729L24.4527 20.201L27.8335 16.8901C28.028 16.7009 28.098 16.4154 28.0128 16.1541C27.9247 15.8957 27.6997 15.7064 27.4261 15.6673L22.7654 14.9853L20.6798 10.7407Z" fill-rule="nonzero" opacity="1" stroke="none"/>
