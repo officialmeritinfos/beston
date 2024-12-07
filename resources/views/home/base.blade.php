@@ -30,7 +30,38 @@
     <meta name="twitter:site" content="@public" />
     <link rel='dns-prefetch' href='http://universal.hellopublic.com/' />
     @stack('css')
+    <style>
+        .watkey {
+            z-index: 9;
+            position: fixed;
+            bottom: 15px;
+            left: 15px;
+            padding: 4px;
+            border: 1px solid #0d9f16;
+            border-radius: 50%;
+        }
+    </style>
 
+    <style>
+        /* Custom CSS for the Float widget */
+        .telegram-float-widget {
+            position: fixed;
+            left: 10px;
+            /* Adjust the left positioning as needed */
+            bottom: 20rem;
+            /* Adjust the bottom positioning as needed */
+            z-index: 9999;
+        }
+
+        .whatsapp-float-widget {
+            position: fixed;
+            left: 70px;
+            /* Adjust the left positioning as needed */
+            bottom: 10px;
+            /* Adjust the bottom positioning as needed */
+            z-index: 9999;
+        }
+    </style>
     <link rel='stylesheet' id='Stock Charts by Public.com/css-css' defer href='{{asset('home/wp-content/plugins/stock-charts-by-public-com/dist/styles/main-b015f46ff269f269.css')}}?ver=1.0.1' type='text/css' media='all' />
     <link rel='stylesheet' id='cs/css-css' href='{{asset('home/wp-content/themes/public/dist/styles/homepage-global_4145c2c7.css')}}' type='text/css' media='all' />
     <link rel='stylesheet' id='cs/cssa-defer-css' defer href='{{asset('home/wp-content/themes/public/dist/styles/homepage-global-async_4145c2c7.css')}}' type='text/css' media='print' />
@@ -472,7 +503,12 @@
     </header>
     @yield('content')
 
-
+    <div class="telegram-float-widget">
+        <a href="https://wa.me/{{$web->phone}}" target="_blank">
+            <img src="https://cdn2.iconfinder.com/data/icons/social-media-applications/64/social_media_applications_23-whatsapp-256.png"
+                 alt="" width="50">
+        </a>
+    </div>
 
 
     <footer class="site-footer">
